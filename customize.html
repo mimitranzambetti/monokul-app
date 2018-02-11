@@ -8,34 +8,12 @@
   </head>
   <body>
 
-    <script>
-    $(document).ready(function(){
-        $("#channels > tr").click(function(){
-            $(this).toggleClass("active");
-        });
-    });
-    </script>
-
     <div class="header"></div>
     <div class="content">
 
     <h1>Welcome to Monokul's Web App</h1>
 
     <form role="form">
-    <label for="token">Enter Slack Token:</label><br>
-    <input type="text" name="token" placeholder="Enter Token">
-    <input type="submit" class="button" value="Next">
-    <a href="https://get.slack.help/hc/en-us/articles/215770388-Create-and-regenerate-API-tokens" target="_blank">How to find your Slack token</a><br><br>
-
-    <label for="file">Upload File:</label><br>
-    <input type="text" name="file" placeholder="Choose file">
-    <label class="fileContainer">Choose file
-    <input type="file" name="image"/>
-    </label>
-
-    <!--check https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file
-    for instructions on customizing upload file button-->
-    <br><br>
 
     <label for="table">Select Channels:</label>
     <p>Pick which channels to focus on, and leave the ones you want to exclude</p>
@@ -46,31 +24,66 @@
       </tr>
       <tr class="">
         <td>#android</td>
-        <td>Yes</td>
+        <td>
+          <input type="radio" id="yes" name="yes1" value="yes" checked="checked">
+          <label for="yes1">Yes</label>
+          <input type="radio" id="no" name="no1" value="no">
+          <label for="no1">No</label>
+        </td>
       </tr>
       <tr class="">
         <td>#board-members</td>
-        <td>Yes</td>
+        <td>
+          <input type="radio" id="yes" name="yes2" value="yes" checked="checked">
+          <label for="yes2">Yes</label>
+          <input type="radio" id="no" name="no2" value="no">
+          <label for="no2">No</label>
+        </td>
       </tr>
       <tr class="">
         <td>#core-team</td>
-        <td>Yes</td>
+        <td>
+          <input type="radio" id="yes" name="yes3" value="yes" checked="checked">
+          <label for="yes3">Yes</label>
+          <input type="radio" id="no" name="no3" value="no">
+          <label for="no3">No</label>
+        </td>
       </tr>
       <tr class="">
         <td>#design</td>
-        <td>Yes</td>
+        <td>
+          <input type="radio" id="yes" name="yes4" value="yes" checked="checked">
+          <label for="yes4">Yes</label>
+          <input type="radio" id="no" name="no4" value="no">
+          <label for="no4">No</label>
+        </td>
       </tr>
       <tr class="">
         <td>#general</td>
-        <td>Yes</td>
+        <td>
+          <input type="radio" id="yes" name="yes5" value="yes" checked="checked">
+          <label for="yes5">Yes</label>
+          <input type="radio" id="no" name="no5" value="no">
+          <label for="no5">No</label>
+        </td>
       </tr>
       <tr class="">
         <td>#random</td>
-        <td>Yes</td>
+        <td>
+          <input type="radio" id="yes" name="yes6" value="yes" checked="checked">
+          <label for="yes6">Yes</label>
+          <input type="radio" id="no" name="no6" value="no">
+          <label for="no6">No</label>
+        </td>
       </tr>
       <tr class="">
         <td>#website</td>
-        <td>Yes</td>
+        <td>
+          <input type="radio" id="yes" name="yes7" value="yes" checked="checked">
+          <label for="yes7">Yes</label>
+          <input type="radio" id="no" name="no7" value="no">
+          <label for="no7">No</label>
+        </td>
       </tr>
     </table>
     <br>
@@ -84,128 +97,89 @@
       <tr>
         <td>bstanfie</td>
         <td>
-        <div>
-          <input type="radio" id="woman" name="gender1" value="woman">
-          <label for="gender1">Woman</label>
-        </div>
-        <div>
-          <input type="radio" id="man" name="gender1" value="man">
-          <label for="gender1">Man</label>
-        </div>
-        <div>
-          <input type="radio" id="other" name="gender1" value="other">
-          <label for="gender1">Other</label>
-        </div>
+          <select name="gender">
+            <option value="woman">Woman</option>
+            <option value="man">Man</option>
+            <option value="other">Other</option>
+            <option value="Prefer not to say" selected="selected">Prefer not to say</option>
+          </select>
         </td>
       </tr>
       <tr>
         <td>faizulla</td>
         <td>
-        <div>
-          <input type="radio" id="woman" name="gender2" value="woman">
-          <label for="gender2">Woman</label>
-        </div>
-        <div>
-          <input type="radio" id="man" name="gender2" value="man">
-          <label for="gender2">Man</label>
-        </div>
-        <div>
-          <input type="radio" id="other" name="gender2" value="other">
-          <label for="gender2">Other</label>
-        </div>
+          <select name="gender1">
+            <option value="woman">Woman</option>
+            <option value="man">Man</option>
+            <option value="other">Other</option>
+            <option value="Prefer not to say" selected="selected">Prefer not to say</option>
+          </select>
         </td>
       </tr>
       <tr>
         <td>lbrand</td>
         <td>
-        <div>
-          <input type="radio" id="woman" name="gender3" value="woman">
-          <label for="gender3">Woman</label>
-        </div>
-        <div>
-          <input type="radio" id="man" name="gender3" value="man">
-          <label for="gender3">Man</label>
-        </div>
-        <div>
-          <input type="radio" id="other" name="gender3" value="other">
-          <label for="gender3">Other</label>
-        </div>
+          <select name="gender2">
+            <option value="woman">Woman</option>
+            <option value="man">Man</option>
+            <option value="other">Other</option>
+            <option value="Prefer not to say" selected="selected">Prefer not to say</option>
+          </select>
         </td>
       </tr>
       <tr>
         <td>tranzamb</td>
         <td>
-        <div>
-          <input type="radio" id="woman" name="gender4" value="woman">
-          <label for="gender4">Woman</label>
-        </div>
-        <div>
-          <input type="radio" id="man" name="gender4" value="man">
-          <label for="gender4">Man</label>
-        </div>
-        <div>
-          <input type="radio" id="man" name="gender4" value="man">
-          <label for="gender4">Other</label>
+          <select name="gender3">
+            <option value="woman">Woman</option>
+            <option value="man">Man</option>
+            <option value="other">Other</option>
+            <option value="Prefer not to say" selected="selected">Prefer not to say</option>
+          </select>
         </div>
         </td>
       </tr>
       <tr>
         <td>adenabau</td>
         <td>
-        <div>
-          <input type="radio" id="woman" name="gender5" value="woman">
-          <label for="gender5">Woman</label>
-        </div>
-        <div>
-          <input type="radio" id="man" name="gender5" value="man">
-          <label for="gender5">Man</label>
-        </div>
-        <div>
-          <input type="radio" id="other" name="gender5" value="other">
-          <label for="gender5">Other</label>
-        </div>
+          <select name="gender4">
+            <option value="woman">Woman</option>
+            <option value="man">Man</option>
+            <option value="other">Other</option>
+            <option value="Prefer not to say" selected="selected">Prefer not to say</option>
+          </select>
         </td>
       </tr>
       <tr>
         <td>schen</td>
         <td>
-        <div>
-          <input type="radio" id="woman" name="gender6" value="woman">
-          <label for="gender6">Woman</label>
-        </div>
-        <div>
-          <input type="radio" id="man" name="gender6" value="man">
-          <label for="gender6">Man</label>
-        </div>
-        <div>
-          <input type="radio" id="other" name="gender6" value="other">
-          <label for="gender6">Other</label>
-        </div>
+          <select name="gender5">
+            <option value="woman">Woman</option>
+            <option value="man">Man</option>
+            <option value="other">Other</option>
+            <option value="Prefer not to say" selected="selected">Prefer not to say</option>
+          </select>
         </td>
       </tr>
       <tr>
         <td>calvinl</td>
         <td>
-        <div>
-          <input type="radio" id="woman" name="gender7" value="woman">
-          <label for="gender7">Woman</label>
-        </div>
-        <div>
-          <input type="radio" id="man" name="gender7" value="man">
-          <label for="gender7">Man</label>
-        </div>
-        <div>
-          <input type="radio" id="other" name="gender7" value="other">
-          <label for="gender7">Other</label>
-        </div>
+          <select name="gender6">
+            <option value="woman">Woman</option>
+            <option value="man">Man</option>
+            <option value="other">Other</option>
+            <option value="Prefer not to say" selected="selected">Prefer not to say</option>
+          </select>
         </td>
       </tr>
     </table>
 
 
     <br><br>
-    <input type="submit" class="button" value="Submit" style="">
+    <!-- <input type="submit" value="Submit" style=""><br> -->
 
+    <div class="button button-grey"><a href="index.html">Back</a></div>
+    <div class="button"><a href="ty.html">Submit</a></div>
     </form>
     <br><br>
 
@@ -215,6 +189,7 @@
     <script>
       // You can also require other files to run in this process
       require('./renderer.js')
+      require('./table-toggle.js')
     </script>
   </body>
 </html>
