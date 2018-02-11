@@ -1,0 +1,386 @@
+/* FONTS */
+
+@font-face {
+	font-family: 'Calibre Semibold';
+	src:
+    url('../fonts/Calibre/Calibre-Semibold.otf')
+    format('opentype');
+
+}
+
+@font-face {
+	font-family: 'SF Regular';
+	src: url('../fonts/SFUIDisplay/SF-UI-Display-Regular.otf')
+    format('opentype');
+}
+
+@font-face {
+	font-family: 'SF Light';
+	src: url('../fonts/SFUIDisplay/SF-UI-Display-Light.otf')
+    format('opentype');
+}
+
+@font-face {
+	font-family: 'Atlas Grotesk Regular';
+	src:
+    url('../fonts/AtlasGrotesk/AtlasGrotesk-Regular.otf')
+    format('opentype');
+
+}
+
+@font-face {
+	font-family: 'Atlas Grotesk Medium';
+	src:
+    url('../fonts/AtlasGrotesk/AtlasGrotesk-Medium.otf')
+    format('opentype');
+
+}
+
+/* BODY & HEADERS*/
+
+body {
+	margin: 0px;
+    min-width: 340px;
+	background: #f8f8f8;
+    background-size: 350vw;
+	font-family: 'SF Light';
+    letter-spacing: 0.2pt;
+    font-variant-ligatures: none;
+    -webkit-font-variant-ligatures: none;
+	color: #4f4f4f;
+    font-size: 1.2em;
+	line-height: 2em;
+}
+
+.header {
+	background-color: #107cbb;
+	height: 50px;
+	vertical-align: middle;
+}
+
+h1{
+    font-family: 'Atlas Grotesk Medium';
+		font-size: 16pt;
+}
+
+h3 {
+    font-family: 'Atlas Grotesk Medium';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 0.6;
+    font-size: 10pt;
+}
+
+p {
+		text-decoration: none;
+		margin-top: 0px;
+		line-height: 14pt;
+		font-size: 12pt;
+}
+
+.content {
+	width: 90%;
+	max-width: 800px;
+	margin: 30px auto 60px auto;
+	margin-bottom: 50px;
+}
+
+input[type=text], input[type=password], select {
+    width: 75%;
+    padding: 12px 20px;
+		font-size: 14px;
+    margin: auto;
+    display: inline-block;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=submit]{
+    width: 20%;
+    font-family: 'Atlas Grotesk Medium';
+    text-transform: uppercase;
+		letter-spacing: 2px;
+    font-size: 8pt;
+    background-color: #1F7BB9;
+    color: white;
+    padding: 12px 0px 12px;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=submit]:hover {
+    background-color: #10597f;
+}
+
+.fileContainer {
+    overflow: hidden;
+    position: relative;
+}
+
+.fileContainer [type=file] {
+    cursor: inherit;
+    display: block;
+    filter: alpha(opacity=0);
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+		cursor: pointer;
+}
+
+
+.fileContainer {
+
+	font-family: 'Atlas Grotesk Medium';
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 8pt;
+	background-color: #1F7BB9;
+	color: white;
+	padding: 12px 24px 12px 24px;
+	margin: auto;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+	outline: none;
+}
+
+.fileContainer:hover {
+    background-color: #10597f;
+}
+
+label {
+	font-family: 'Calibre Semibold';
+	text-transform: uppercase;
+	font-size: 14pt;
+	letter-spacing: 1pt;
+	color: #888888;
+}
+
+a, a:visited {
+	text-decoration: none;
+    color: #1F7BB9;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+		font-size: 12pt;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #10597f;
+}
+
+/*TABLE FORMATTING*/
+
+table{
+	width: 100%;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+
+table, th, td {
+    border: 1px solid #bbbbbb;
+		border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px 0px 5px 15px;
+		font-size: 12pt;
+}
+
+th {
+    text-align: left;
+		font-family: 'Atlas Grotesk Medium';
+		background-color: #1F7BB9;
+		color:#fafafa;
+		text-transform: uppercase;
+		font-size: 10pt;
+		letter-spacing: 1.5pt;
+}
+
+td{
+	font-family: 'SF Regular';
+	background-color: #ffffff;
+}
+
+/* trying to get select to work :(  */
+table tr.active {background: #ccc;}
+
+td.label {
+	font-family: 'SF Regular';
+	text-transform: none;
+	font-size: 10pt;
+}
+
+/* NAVIGATION & FOOTER */
+
+nav, footer {
+	padding: 15px 30px;
+    width: 100%;
+	background: #fff;
+    font-family: 'Atlas Grotesk Medium';
+}
+
+	.navlinks a {
+		display: inline-block;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		margin: 20px 20px 0 0;
+        opacity: 0.4;
+        transition: 0.2s;
+        -moz-transition: 0.2s;
+        color: #231f20;
+
+	}
+
+	.navlinks .current {
+		padding-bottom: 3px;
+		border-bottom: 1px solid #ccc;
+	}
+
+    .navlinks a:hover {
+        opacity: 0.8;
+        text-decoration:none;
+	}
+
+    .logo{
+        width: 150px;
+        display: block;
+        clear: none;
+        padding: 10px;
+    }
+
+    a, a:visited {text-decoration: none;}
+
+
+
+/* FOOTER */
+
+footer {
+	background-color: #10597f;
+    padding: 40px;
+    padding-left: 80px;
+}
+
+.footer-nav {
+    width: 30%;
+    min-width: 200px;
+}
+
+.footer-nav a {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 0.4;
+    transition: 0.2s;
+    -moz-transition: 0.2s;
+    color: #fff;
+}
+
+.footer-nav a:hover {
+        opacity: 0.8;
+        text-decoration:none;
+}
+
+.footer-nav a:visited{
+    color: #fff;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+
+
+
+@media (max-width: 540px) {
+    .body{
+        margin-top: 0px;
+    }
+
+
+
+}
+
+@media (max-width: 700px) {
+
+}
+
+@media (max-width: 800px) {
+
+		input[type=text],input[type=submit]{
+				width: 100%;
+				transition: 0s;
+		}
+
+		input[type=submit]{
+			margin-top:15px;
+		}
+
+		.fileContainer{
+			width:100%;
+		}
+
+		.content {
+			width: 80%;
+			max-width: 800px;
+			margin: 30px auto 60px auto;
+			margin-bottom: 50px;
+		}
+
+
+}
+
+@media (min-width: 540px) {
+
+	h1 { font-size: 18pt; }
+	h3 {font-size: 12pt;}
+	p { font-size: 12pt; }
+
+
+
+}
+
+@media(min-width: 700px){
+
+	table{
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 800px) {
+
+
+}
+
+@media (min-width: 990px) {
+}
+
+
+@media (min-width: 1100px) {
+
+}

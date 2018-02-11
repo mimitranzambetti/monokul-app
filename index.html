@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Monokul</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+
+    
+
+    <div class="header"></div>
+    <div class="content">
+
+    <h1>Welcome to Monokul's Web App</h1>
+
+    <form role="form">
+    <label for="token">Enter Slack Token:</label><br>
+    <input type="text" name="token" placeholder="Enter Token"><br>
+    <a href="https://get.slack.help/hc/en-us/articles/215770388-Create-and-regenerate-API-tokens" target="_blank">How to find your Slack token</a><br><br>
+
+    <label for="file">Upload File:</label><br>
+    <input type="text" name="file" placeholder="Choose file">
+    <label class="fileContainer">Choose file
+    <input type="file" name="image"/>
+    </label>
+
+    <!-- <div id="holder">
+      Drag your file here
+    </div>
+
+    <script>
+      document.addEventListener('drop', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        for (let f of e.dataTransfer.files) {
+          console.log('File(s) you dragged here: ', f.path)
+        }
+      });
+      document.addEventListener('dragover', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+      });
+    </script> -->
+
+    <!--check https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file
+    for instructions on customizing upload file button-->
+    <br><br>
+    <input type="submit" class="button" value="Submit" onclick="window.location='customize.html';">
+    </form>
+    <a href="customize.html">Next Page</a>
+    <br><br>
+
+    </div>
+
+    <!-- All of the Node.js APIs are available in this renderer process. -->
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+  </body>
+</html>

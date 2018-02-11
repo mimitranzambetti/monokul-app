@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Monokul</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+
+    <script>
+    $(document).ready(function(){
+        $("#channels > tr").click(function(){
+            $(this).toggleClass("active");
+        });
+    });
+    </script>
+
+    <div class="header"></div>
+    <div class="content">
+
+    <h1>Welcome to Monokul's Web App</h1>
+
+    <form role="form">
+    <label for="token">Enter Slack Token:</label><br>
+    <input type="text" name="token" placeholder="Enter Token">
+    <input type="submit" class="button" value="Next">
+    <a href="https://get.slack.help/hc/en-us/articles/215770388-Create-and-regenerate-API-tokens" target="_blank">How to find your Slack token</a><br><br>
+
+    <label for="file">Upload File:</label><br>
+    <input type="text" name="file" placeholder="Choose file">
+    <label class="fileContainer">Choose file
+    <input type="file" name="image"/>
+    </label>
+
+    <!--check https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file
+    for instructions on customizing upload file button-->
+    <br><br>
+
+    <label for="table">Select Channels:</label>
+    <p>Pick which channels to focus on, and leave the ones you want to exclude</p>
+    <table id="channels">
+      <tr class="">
+        <th>Channel</th>
+        <th>Selected</th>
+      </tr>
+      <tr class="">
+        <td>#android</td>
+        <td>Yes</td>
+      </tr>
+      <tr class="">
+        <td>#board-members</td>
+        <td>Yes</td>
+      </tr>
+      <tr class="">
+        <td>#core-team</td>
+        <td>Yes</td>
+      </tr>
+      <tr class="">
+        <td>#design</td>
+        <td>Yes</td>
+      </tr>
+      <tr class="">
+        <td>#general</td>
+        <td>Yes</td>
+      </tr>
+      <tr class="">
+        <td>#random</td>
+        <td>Yes</td>
+      </tr>
+      <tr class="">
+        <td>#website</td>
+        <td>Yes</td>
+      </tr>
+    </table>
+    <br>
+    <label for="table">Add Tags:</label>
+    <p>Sort through your users to tag them by gender.</p>
+    <table id="gender-tags">
+      <tr>
+        <th>Username</th>
+        <th>Gender</th>
+      </tr>
+      <tr>
+        <td>bstanfie</td>
+        <td>
+        <div>
+          <input type="radio" id="woman" name="gender1" value="woman">
+          <label for="gender1">Woman</label>
+        </div>
+        <div>
+          <input type="radio" id="man" name="gender1" value="man">
+          <label for="gender1">Man</label>
+        </div>
+        <div>
+          <input type="radio" id="other" name="gender1" value="other">
+          <label for="gender1">Other</label>
+        </div>
+        </td>
+      </tr>
+      <tr>
+        <td>faizulla</td>
+        <td>
+        <div>
+          <input type="radio" id="woman" name="gender2" value="woman">
+          <label for="gender2">Woman</label>
+        </div>
+        <div>
+          <input type="radio" id="man" name="gender2" value="man">
+          <label for="gender2">Man</label>
+        </div>
+        <div>
+          <input type="radio" id="other" name="gender2" value="other">
+          <label for="gender2">Other</label>
+        </div>
+        </td>
+      </tr>
+      <tr>
+        <td>lbrand</td>
+        <td>
+        <div>
+          <input type="radio" id="woman" name="gender3" value="woman">
+          <label for="gender3">Woman</label>
+        </div>
+        <div>
+          <input type="radio" id="man" name="gender3" value="man">
+          <label for="gender3">Man</label>
+        </div>
+        <div>
+          <input type="radio" id="other" name="gender3" value="other">
+          <label for="gender3">Other</label>
+        </div>
+        </td>
+      </tr>
+      <tr>
+        <td>tranzamb</td>
+        <td>
+        <div>
+          <input type="radio" id="woman" name="gender4" value="woman">
+          <label for="gender4">Woman</label>
+        </div>
+        <div>
+          <input type="radio" id="man" name="gender4" value="man">
+          <label for="gender4">Man</label>
+        </div>
+        <div>
+          <input type="radio" id="man" name="gender4" value="man">
+          <label for="gender4">Other</label>
+        </div>
+        </td>
+      </tr>
+      <tr>
+        <td>adenabau</td>
+        <td>
+        <div>
+          <input type="radio" id="woman" name="gender5" value="woman">
+          <label for="gender5">Woman</label>
+        </div>
+        <div>
+          <input type="radio" id="man" name="gender5" value="man">
+          <label for="gender5">Man</label>
+        </div>
+        <div>
+          <input type="radio" id="other" name="gender5" value="other">
+          <label for="gender5">Other</label>
+        </div>
+        </td>
+      </tr>
+      <tr>
+        <td>schen</td>
+        <td>
+        <div>
+          <input type="radio" id="woman" name="gender6" value="woman">
+          <label for="gender6">Woman</label>
+        </div>
+        <div>
+          <input type="radio" id="man" name="gender6" value="man">
+          <label for="gender6">Man</label>
+        </div>
+        <div>
+          <input type="radio" id="other" name="gender6" value="other">
+          <label for="gender6">Other</label>
+        </div>
+        </td>
+      </tr>
+      <tr>
+        <td>calvinl</td>
+        <td>
+        <div>
+          <input type="radio" id="woman" name="gender7" value="woman">
+          <label for="gender7">Woman</label>
+        </div>
+        <div>
+          <input type="radio" id="man" name="gender7" value="man">
+          <label for="gender7">Man</label>
+        </div>
+        <div>
+          <input type="radio" id="other" name="gender7" value="other">
+          <label for="gender7">Other</label>
+        </div>
+        </td>
+      </tr>
+    </table>
+
+
+    <br><br>
+    <input type="submit" class="button" value="Submit" style="">
+
+    </form>
+    <br><br>
+
+    </div>
+
+    <!-- All of the Node.js APIs are available in this renderer process. -->
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+  </body>
+</html>
