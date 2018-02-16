@@ -266,6 +266,7 @@ th {
 td{
 	font-family: 'SF Regular';
 	background-color: #ffffff;
+	min-width: 150px;
 }
 
 /* trying to get select to work :(  */

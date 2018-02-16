@@ -1,0 +1,118 @@
+[
+    {
+        "type": "message",
+        "user": "U03KC99B6",
+        "text": "<!group>: hi guys - it's gonna be a fun semester! fill this out so we can find a time to meet <http:\/\/whenisgood.net\/a79x5yg>",
+        "edited": {
+            "user": "U03KC99B6",
+            "ts": "1454730395.000000"
+        },
+        "ts": "1454730387.000009",
+        "reactions": [
+            {
+                "name": "spark",
+                "users": [
+                    "U02LZPCC3",
+                    "U0L200E86",
+                    "U02M11UCN"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U0L1WL9L3",
+        "text": "Whenisgood filled out!",
+        "ts": "1454844611.000002"
+    },
+    {
+        "type": "message",
+        "user": "U0L1WL9L3",
+        "text": "Also, hi everyone! ",
+        "ts": "1454844621.000003"
+    },
+    {
+        "type": "message",
+        "user": "U03KC99B6",
+        "text": "<!channel>: so far no plausible times to meet - I expanded the whenisgood to contain less convenient times - please fill out again, thanks! <http:\/\/whenisgood.net\/a79x5yg>",
+        "attachments": [
+            {
+                "text": "Plan the time to have your meeting or event by co-ordinating availability with all the particpants using this fuss-free online tool.",
+                "fallback": "Plan the time to have your meeting or event by co-ordinating availability with all the particpants using this fuss-free online tool.",
+                "from_url": "http:\/\/whenisgood.net\/a79x5yg",
+                "id": 1
+            }
+        ],
+        "ts": "1454864629.000002",
+        "reactions": [
+            {
+                "name": "spark",
+                "users": [
+                    "U0L200E86"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U03KC99B6",
+        "text": "actually - looks like the meeting will be @ 8pm on Thursday - how does that look <@U02M11UCN>",
+        "ts": "1454899405.000005",
+        "reactions": [
+            {
+                "name": "anchor",
+                "users": [
+                    "U0L200E86"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U03KC99B6",
+        "text": "(its a decisive winner so far)",
+        "ts": "1454899417.000006"
+    },
+    {
+        "type": "message",
+        "user": "U03KC99B6",
+        "text": "<@U0L1WL9L3>: no need to fill it out again",
+        "ts": "1454899439.000007"
+    },
+    {
+        "type": "message",
+        "user": "U0L1TCBPE",
+        "text": "<@U03KC99B6> Where will we be meeting?",
+        "ts": "1454909440.000009"
+    },
+    {
+        "type": "message",
+        "user": "U03KC99B6",
+        "text": "<@U0L1TCBPE>: working on booking a room - for now lets assume west lobby (where the general meeting is held)",
+        "ts": "1454911381.000010",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U0L1TCBPE"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U02M11UCN",
+        "text": "<@U03KC99B6>: Fine by me for this week, maybe we can all bust out our calendars on Thursday and see if there’s a better time in person?",
+        "ts": "1454913926.000011"
+    },
+    {
+        "type": "message",
+        "user": "U03KC99B6",
+        "text": "yep def remind me, i'll try to remember to do that",
+        "ts": "1454913956.000012"
+    }
+]

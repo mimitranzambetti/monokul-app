@@ -1,0 +1,19 @@
+{
+    "auth_info": {
+        "user_id": "U8CCENTSS", 
+        "url": "https://monokul.slack.com/", 
+        "team_id": "T8C85JCS2", 
+        "user": "landonbr", 
+        "team": "Project-M", 
+        "ok": true
+    }, 
+    "users": {
+        "U8M1ABRDJ": "googledrive", 
+        "U8CCENTSS": "landonbr", 
+        "U923C5L3A": "jirabot", 
+        "USLACKBOT": "slackbot", 
+        "U8BE9NVFC": "tranzamb", 
+        "U8BDMJYEM": "bstanfie", 
+        "U8B9TDWBD": "faizulla"
+    }
+}

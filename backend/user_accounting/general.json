@@ -1,0 +1,1439 @@
+{
+    "messages": [
+        {
+            "text": "<@U72EPHLDC> has joined the channel", 
+            "type": "message", 
+            "user": "U72EPHLDC", 
+            "ts": "1510029792.000179", 
+            "subtype": "channel_join"
+        }, 
+        {
+            "thread_ts": "1508215868.000052", 
+            "reactions": [
+                {
+                    "count": 1, 
+                    "name": "v", 
+                    "users": [
+                        "U03KA9P37"
+                    ]
+                }
+            ], 
+            "text": "Closing the loop here - yep, definitely USC :v::skin-tone-4:", 
+            "ts": "1510006366.000316", 
+            "user": "U03KC99B6", 
+            "parent_user_id": "U03KA9P37", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1509934241.000048", 
+            "text": "Yep! it's also probably more fitting of a method for committee leads to use as a way of visualizing the future and crafting a vision, where success is much more clearly defined and missions are much more stable", 
+            "ts": "1510006277.000550", 
+            "user": "U03KC99B6", 
+            "parent_user_id": "U0L1WL9L3", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1509934241.000048", 
+            "text": "Got it, thank you for the input and the insight :heart:", 
+            "ts": "1510006098.000299", 
+            "user": "U0L1WL9L3", 
+            "parent_user_id": "U0L1WL9L3", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1509934241.000048", 
+            "edited": {
+                "user": "U03KC99B6", 
+                "ts": "1510005972.000000"
+            }, 
+            "text": "Dan Gilbert the author of _Stumbling on Happiness_ has an interview here, which might address the last point <http://www.wbur.org/npr/545097480/you-2-0-why-were-bad-at-predicting-our-own-happiness-and-how-we-can-get-better>", 
+            "ts": "1510005966.000100", 
+            "user": "U03KC99B6", 
+            "parent_user_id": "U0L1WL9L3", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1509934241.000048", 
+            "reactions": [
+                {
+                    "count": 2, 
+                    "name": "100", 
+                    "users": [
+                        "U0L1WL9L3", 
+                        "U0L1WFBAT"
+                    ]
+                }
+            ], 
+            "text": "I first did this my second semester of college back when i was in 170... funnily enough, a few months ago I was cleaning out my room, found a wrinkled piece of paper, and unraveled it to find a correct prediction of exactly how the last 2 years of my life had gone... It was pretty scary. \n\nThough it may be effective at predicting outcomes, there is a key flaw... humans are particularly bad at knowing what will make them happy/what they want. Especially in college, you should be expanding your perspectives, definitions of success, and desirable futures. Following some plan you made as a 18/19 year-old just feels silly when you're 21. So i'd say be careful? Don't feel tied down to decisions you made a long time ago, and embrace change?", 
+            "ts": "1510005754.000097", 
+            "user": "U03KC99B6", 
+            "parent_user_id": "U0L1WL9L3", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1509934241.000048", 
+            "text": "<@U03KC99B6> Thanks for this up! How long have you been implementing this type of process? And have you found it to pan out well?", 
+            "ts": "1510004847.000125", 
+            "user": "U0L1WL9L3", 
+            "parent_user_id": "U0L1WL9L3", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1509934241.000048", 
+            "edited": {
+                "user": "U03KC99B6", 
+                "ts": "1510004109.000000"
+            }, 
+            "text": "To be honest, it's a bit silly to expect that such a decision tree can extrapolate to life, but it can help you think about your near-term actions in a broader context, think about probabilities and outcomes somewhat realistically, and give you the sense that everything is being done for a reason... it's really hard to keep track of all of those things in your head as you're evaluating different futures and often ends up in making costly mistakes.", 
+            "ts": "1510004073.000090", 
+            "user": "U03KC99B6", 
+            "parent_user_id": "U0L1WL9L3", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1509934241.000048", 
+            "edited": {
+                "user": "U03KC99B6", 
+                "ts": "1510003962.000000"
+            }, 
+            "text": "I'd say generally I don't have much of a process, one silly/quirky thing that I have a tendency of doing is a `Decision Tree.` I pull out the trusty whiteboard and draw a node that represents myself in the present moment. From that node I draw several lines out to several decisions I could make about the near-term future, with a particular scope - for instance, if the scope was *professional life* I would draw lines to new nodes: \"Focus on Getting Good Grades\", \"Spend time on Passion Project\", and \"Practice for Interviews and Apply to Jobs\"... These options should be (mostly) mutually exclusive, and be roughly equivalent in time and money expenditure. \n\nFrom each of the newly formed nodes, I then connect lines to several more nodes. These should be potential consequences of each action taken, annotated with rough probabilities. For instance, from \"Focus on Getting Good Grades\" I might draw \"Get Recommendation Letter - 50%\", \"Score Directed Research - 10%\", \"Get All A's - 20%\" note that the probabilities shouldn't to add up to 100% and that they aren't mutually exclusive. Then from each array of outcomes, I take combinations of outcomes and draw out further Decisions that need to be made assuming that those decisions are made... for instance, assuming that the following conditions are met (Directed Research, All A's, and Recommendation Letter), I draw out the following decisions \"Apply to PhD\" \"Apply to Masters Program\" \"Apply for a Research-y Job\" etc... and repeat the process as described. I do this for all branches of the decision tree, until I hit about 3 years out (MAX), and then stop, look at which possibilities I would respect the most, given my current values, and pick the near-term decision which would lead me to that path.", 
+            "ts": "1510003926.000525", 
+            "user": "U03KC99B6", 
+            "parent_user_id": "U0L1WL9L3", 
+            "type": "message", 
+            "reactions": [
+                {
+                    "count": 2, 
+                    "name": "scream", 
+                    "users": [
+                        "U71HYP43U", 
+                        "U0L1WFBAT"
+                    ]
+                }
+            ]
+        }, 
+        {
+            "thread_ts": "1509934241.000048", 
+            "text": ":joy:", 
+            "ts": "1509934927.000084", 
+            "user": "U0BFCGCKY", 
+            "parent_user_id": "U0L1WL9L3", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1509934241.000048", 
+            "reactions": [
+                {
+                    "count": 7, 
+                    "name": "surfer::skin-tone-4", 
+                    "users": [
+                        "U03KC99B6", 
+                        "U0BFCGCKY", 
+                        "U0L3Z79QD", 
+                        "U3YKV8G9Y", 
+                        "U02M1201A", 
+                        "U0L200E86", 
+                        "U71HYP43U"
+                    ]
+                }
+            ], 
+            "text": "my best guess: how much time is spent on or near a beach and can i surf there?", 
+            "ts": "1509934649.000027", 
+            "user": "U3YHUPFD1", 
+            "parent_user_id": "U0L1WL9L3", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1509934241.000048", 
+            "last_read": "1510006277.000550", 
+            "subscribed": true, 
+            "text": "<@U03KC99B6> When you consider opportunities (new project, a potential trip to somewhere, etc), what metrics/tools/questions do you use to separate the good ones from the bad?", 
+            "ts": "1509934241.000048", 
+            "unread_count": 0, 
+            "reply_count": 9, 
+            "user": "U0L1WL9L3", 
+            "replies": [
+                {
+                    "user": "U3YHUPFD1", 
+                    "ts": "1509934649.000027"
+                }, 
+                {
+                    "user": "U0BFCGCKY", 
+                    "ts": "1509934927.000084"
+                }, 
+                {
+                    "user": "U03KC99B6", 
+                    "ts": "1510003926.000525"
+                }, 
+                {
+                    "user": "U03KC99B6", 
+                    "ts": "1510004073.000090"
+                }, 
+                {
+                    "user": "U0L1WL9L3", 
+                    "ts": "1510004847.000125"
+                }, 
+                {
+                    "user": "U03KC99B6", 
+                    "ts": "1510005754.000097"
+                }, 
+                {
+                    "user": "U03KC99B6", 
+                    "ts": "1510005966.000100"
+                }, 
+                {
+                    "user": "U0L1WL9L3", 
+                    "ts": "1510006098.000299"
+                }, 
+                {
+                    "user": "U03KC99B6", 
+                    "ts": "1510006277.000550"
+                }
+            ], 
+            "type": "message"
+        }, 
+        {
+            "text": "<@U71FS6QNP> has joined the channel", 
+            "type": "message", 
+            "user": "U71FS6QNP", 
+            "ts": "1508832299.000213", 
+            "subtype": "channel_join"
+        }, 
+        {
+            "text": "<@U02M0720Z> has joined the channel", 
+            "type": "message", 
+            "user": "U02M0720Z", 
+            "ts": "1508267498.000270", 
+            "subtype": "channel_join"
+        }, 
+        {
+            "thread_ts": "1508215868.000052", 
+            "text": "also skipping higher education altogether is an option", 
+            "ts": "1508216357.000075", 
+            "user": "U03KA9P37", 
+            "parent_user_id": "U03KA9P37", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1508215868.000052", 
+            "text": "The question really seems to boil down to, \"do I think I could have gotten a better or similar experience (for less money) at another institution to which I was admitted\" ... Hmm... give me a few days haha", 
+            "ts": "1508216322.000025", 
+            "user": "U03KC99B6", 
+            "parent_user_id": "U03KA9P37", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1508215868.000052", 
+            "text": "The latter, all the info and values you have now.", 
+            "ts": "1508216008.000114", 
+            "user": "U03KA9P37", 
+            "parent_user_id": "U03KA9P37", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1508215868.000052", 
+            "text": "Clarifying Question - am I making this decision with all the information I had back then (but the values i have now), or all the information (and values) I have now?", 
+            "ts": "1508215983.000189", 
+            "user": "U03KC99B6", 
+            "parent_user_id": "U03KA9P37", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1508215868.000052", 
+            "last_read": "1510006366.000316", 
+            "subscribed": true, 
+            "reactions": [
+                {
+                    "count": 2, 
+                    "name": "ok_hand::skin-tone-3", 
+                    "users": [
+                        "U0L200E86", 
+                        "U0L1WL9L3"
+                    ]
+                }
+            ], 
+            "text": "If you could do it all over again, would you have come to USC after high school?", 
+            "ts": "1508215868.000052", 
+            "unread_count": 0, 
+            "reply_count": 5, 
+            "user": "U03KA9P37", 
+            "replies": [
+                {
+                    "user": "U03KC99B6", 
+                    "ts": "1508215983.000189"
+                }, 
+                {
+                    "user": "U03KA9P37", 
+                    "ts": "1508216008.000114"
+                }, 
+                {
+                    "user": "U03KC99B6", 
+                    "ts": "1508216322.000025"
+                }, 
+                {
+                    "user": "U03KA9P37", 
+                    "ts": "1508216357.000075"
+                }, 
+                {
+                    "user": "U03KC99B6", 
+                    "ts": "1510006366.000316"
+                }
+            ], 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1507705063.000226", 
+            "reactions": [
+                {
+                    "count": 1, 
+                    "name": "money_with_wings", 
+                    "users": [
+                        "U03KA9P37"
+                    ]
+                }
+            ], 
+            "text": "If we crafted our economic system more carefully the answer could have been a *yes* (at least the optimist in me thinks so) -- unfortunately I'd say we're not quite at the point where we can, in good conscience, spend money on expensive food with the hopes of that money `trickling down` in any fair and meaningful way.", 
+            "ts": "1508215783.000051", 
+            "user": "U03KC99B6", 
+            "parent_user_id": "U03KA9P37", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1507784208.000003", 
+            "text": "did you say `spark sc patagonia`", 
+            "ts": "1507967042.000015", 
+            "user": "U3XV9T3DX", 
+            "parent_user_id": "U3YHUPFD1", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1507705055.000094", 
+            "reactions": [
+                {
+                    "count": 1, 
+                    "name": "heart", 
+                    "users": [
+                        "U03KA9P37"
+                    ]
+                }
+            ], 
+            "text": "`Does freewill exist?` This depends on your definition of freewill... but if we take it in the sense of the word of your \"spirit\" \"soul\" \"consciousness\" having influence over your subsequent actions, the answer seems to be a mournful *no* according to most scientific explorations. As for a philosophical view, Camus has an interesting view of freewill that i've latched on to in recent years, explained in his _Myth of Sisyphus_  in the section called *Absurd Freedom*. It's the concept of *practical freewill* ... \n\n```Knowing whether or not man is free doesn\u2019t interest me. I can experience only my own freedom. As to it, I can have no general notions, but merely a few clear insights. The problem of \u201cfreedom as such\u201d has no meaning.```", 
+            "ts": "1507862509.000076", 
+            "user": "U03KC99B6", 
+            "parent_user_id": "U03KA9P37", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1505895906.000171", 
+            "text": "dude high key same", 
+            "ts": "1507853811.000243", 
+            "user": "U3YKV9VGA", 
+            "parent_user_id": "U3YHUPFD1", 
+            "type": "message"
+        }, 
+        {
+            "text": "<@U3YKV9VGA> has joined the channel", 
+            "type": "message", 
+            "user": "U3YKV9VGA", 
+            "ts": "1507853797.000240", 
+            "subtype": "channel_join"
+        }, 
+        {
+            "thread_ts": "1507784208.000003", 
+            "text": "prepped before - has always been a bit of a last-minute pull", 
+            "ts": "1507796589.000366", 
+            "user": "U03KC99B6", 
+            "parent_user_id": "U3YHUPFD1", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1507784208.000003", 
+            "text": "the pictures &amp; cards happen _after_ when we return to USC? or prepped before visit?", 
+            "ts": "1507786775.000051", 
+            "user": "U3YHUPFD1", 
+            "parent_user_id": "U3YHUPFD1", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1507784324.000149", 
+            "reactions": [
+                {
+                    "count": 1, 
+                    "name": "joy", 
+                    "users": [
+                        "U02M0720Z"
+                    ]
+                }
+            ], 
+            "text": "an welcome, unexpected turn of events", 
+            "ts": "1507786340.000099", 
+            "user": "U0L1WL9L3", 
+            "parent_user_id": "U0L200E86", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1507784208.000003", 
+            "text": "3D Printed Spark memorabilia, Customized thank-you cards with pictures of spark and the impact we have (s/o <@U03N680NT> for both of these),  and in rare cases the Spark SC patagonia", 
+            "ts": "1507784537.000078", 
+            "user": "U03KC99B6", 
+            "parent_user_id": "U3YHUPFD1", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1507784324.000149", 
+            "subscribed": false, 
+            "reactions": [
+                {
+                    "count": 5, 
+                    "name": "bee", 
+                    "users": [
+                        "U03KC99B6", 
+                        "U03KA9P37", 
+                        "U3YKV8G9Y", 
+                        "U0L1WL9L3", 
+                        "U71HYP43U"
+                    ]
+                }, 
+                {
+                    "count": 4, 
+                    "name": "joy", 
+                    "users": [
+                        "U03KC99B6", 
+                        "U03KA9P37", 
+                        "U3YKV8G9Y", 
+                        "U0L1WL9L3"
+                    ]
+                }
+            ], 
+            "text": "<@U03KC99B6> not a question, just wanted to say I\u2019m happy this channel is thriving", 
+            "ts": "1507784324.000149", 
+            "unread_count": 1, 
+            "reply_count": 1, 
+            "user": "U0L200E86", 
+            "replies": [
+                {
+                    "user": "U0L1WL9L3", 
+                    "ts": "1507786340.000099"
+                }
+            ], 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1507784208.000003", 
+            "last_read": "1507990497.781456", 
+            "subscribed": true, 
+            "text": "<@U03KC99B6> what have we given bay trip companies as thank you gifts in the past?", 
+            "ts": "1507784208.000003", 
+            "unread_count": 0, 
+            "reply_count": 4, 
+            "user": "U3YHUPFD1", 
+            "replies": [
+                {
+                    "user": "U03KC99B6", 
+                    "ts": "1507784537.000078"
+                }, 
+                {
+                    "user": "U3YHUPFD1", 
+                    "ts": "1507786775.000051"
+                }, 
+                {
+                    "user": "U03KC99B6", 
+                    "ts": "1507796589.000366"
+                }, 
+                {
+                    "user": "U3XV9T3DX", 
+                    "ts": "1507967042.000015"
+                }
+            ], 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1507705063.000226", 
+            "last_read": "1508215783.000051", 
+            "subscribed": true, 
+            "text": "Is it wrong to spend money on expensive food when people are dying of hunger?", 
+            "ts": "1507705063.000226", 
+            "unread_count": 0, 
+            "reply_count": 1, 
+            "user": "U03KA9P37", 
+            "replies": [
+                {
+                    "user": "U03KC99B6", 
+                    "ts": "1508215783.000051"
+                }
+            ], 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1507705055.000094", 
+            "last_read": "1507862509.000076", 
+            "subscribed": true, 
+            "text": "Does freewill exist? If there is no freewill, should we punish people at all?", 
+            "ts": "1507705055.000094", 
+            "unread_count": 0, 
+            "reply_count": 1, 
+            "user": "U03KA9P37", 
+            "replies": [
+                {
+                    "user": "U03KC99B6", 
+                    "ts": "1507862509.000076"
+                }
+            ], 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1507693027.000172", 
+            "text": "i approve", 
+            "ts": "1507704561.000287", 
+            "user": "U03KA9P37", 
+            "parent_user_id": "U03KC99B6", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1507693027.000172", 
+            "text": "very good answer", 
+            "ts": "1507704557.000271", 
+            "user": "U03KA9P37", 
+            "parent_user_id": "U03KC99B6", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1507693027.000172", 
+            "text": "`b` `i` `g`   `d` `a` `t` `a`", 
+            "ts": "1507694937.000022", 
+            "user": "U0L200E86", 
+            "parent_user_id": "U03KC99B6", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1507693027.000172", 
+            "text": "`MACHINE LEARNinG` `AiIIiI`  :rotating_light:", 
+            "ts": "1507694667.000207", 
+            "user": "U0L1WL9L3", 
+            "parent_user_id": "U03KC99B6", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1507693027.000172", 
+            "text": "using this data", 
+            "ts": "1507693142.000206", 
+            "user": "U0L200E86", 
+            "parent_user_id": "U03KC99B6", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1507693027.000172", 
+            "text": "I cannot wait for 10 years from now when we can finally make Irfan Bot real. cc <@U0L1WL9L3>", 
+            "ts": "1507693138.000039", 
+            "user": "U0L200E86", 
+            "parent_user_id": "U03KC99B6", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1507693027.000172", 
+            "attachments": [
+                {
+                    "footer": "Posted in #ask-irfan", 
+                    "fallback": "[October 5th, 2017 1:49 PM] joshlurie: <@U03KC99B6> Is poverty an economic or cultural problem? (If both, how which space impacts it more and what realm do you tackle the problem in?)", 
+                    "channel_name": "ask-irfan", 
+                    "text": "<@U03KC99B6> Is poverty an economic or cultural problem? (If both, how which space impacts it more and what realm do you tackle the problem in?)", 
+                    "author_link": "https://sparksc.slack.com/team/U03KA9P37", 
+                    "ts": "1507236571.000176", 
+                    "author_name": "Josh Lurie", 
+                    "id": 1, 
+                    "channel_id": "C7524DAHW", 
+                    "mrkdwn_in": [
+                        "text"
+                    ], 
+                    "author_subname": "Josh Lurie", 
+                    "author_id": "U03KA9P37", 
+                    "author_icon": "https://avatars.slack-edge.com/2015-04-15/4473447749_7a8606a454b043baf87e_48.jpg", 
+                    "is_msg_unfurl": true, 
+                    "from_url": "https://sparksc.slack.com/archives/C7524DAHW/p1507236571000176"
+                }, 
+                {
+                    "title": "Poverty as a wicked problem - CROP", 
+                    "text": "CROP POVERTY BRIEF by Paul Spicker (Robert Gordon University, UK), CROP Fellow", 
+                    "title_link": "http://www.crop.org/CROPNewsEvents/Poverty-as-a-wicked-problem.aspx", 
+                    "service_name": "crop.org", 
+                    "id": 2, 
+                    "fallback": "Poverty as a wicked problem - CROP", 
+                    "from_url": "http://www.crop.org/CROPNewsEvents/Poverty-as-a-wicked-problem.aspx"
+                }
+            ], 
+            "subscribed": true, 
+            "reactions": [
+                {
+                    "count": 1, 
+                    "name": "heart", 
+                    "users": [
+                        "U03KA9P37"
+                    ]
+                }, 
+                {
+                    "count": 2, 
+                    "name": "thinking_face", 
+                    "users": [
+                        "U03KA9P37", 
+                        "U3YHUPFD1"
+                    ]
+                }
+            ], 
+            "text": "<https://sparksc.slack.com/archives/C7524DAHW/p1507236571000176> -- <@U03KA9P37> The answer for me, seems to be a resounding `both`. As for \"Which space does it impact more/What realm do you tackle the problem in?\" This is where it gets tricky. Poverty falls under the category of a *wicked problem* in my opinion ( <http://www.crop.org/CROPNewsEvents/Poverty-as-a-wicked-problem.aspx> ), which makes it seem like there is no _right_ answer to this question. I think it can be argued equally well, that change must first start in the cultural, or economic realm first. \n\nMy personal opinion is that given that our metrics/methods of determining *progress* in the cultural realm are *far less advanced* than those of the economic realm, we should tackle this problem first as an economic problem, with mind to how the cultural underpinnings of this problem are being addressed/not-addressed when evaluating among different economic solutions.", 
+            "last_read": "1507730265.443685", 
+            "ts": "1507693027.000172", 
+            "unread_count": 0, 
+            "reply_count": 6, 
+            "user": "U03KC99B6", 
+            "replies": [
+                {
+                    "user": "U0L200E86", 
+                    "ts": "1507693138.000039"
+                }, 
+                {
+                    "user": "U0L200E86", 
+                    "ts": "1507693142.000206"
+                }, 
+                {
+                    "user": "U0L1WL9L3", 
+                    "ts": "1507694667.000207"
+                }, 
+                {
+                    "user": "U0L200E86", 
+                    "ts": "1507694937.000022"
+                }, 
+                {
+                    "user": "U03KA9P37", 
+                    "ts": "1507704557.000271"
+                }, 
+                {
+                    "user": "U03KA9P37", 
+                    "ts": "1507704561.000287"
+                }
+            ], 
+            "type": "message"
+        }, 
+        {
+            "text": "<@U0BFCGCKY> has joined the channel", 
+            "type": "message", 
+            "user": "U0BFCGCKY", 
+            "ts": "1507607527.000087", 
+            "subtype": "channel_join"
+        }, 
+        {
+            "comment": {
+                "comment": "wow that is actually a beautiful logo. As much as people hate on the IRS, they do have some good logo design.", 
+                "created": 1507237151, 
+                "timestamp": 1507237151, 
+                "is_intro": false, 
+                "user": "U03KA9P37", 
+                "id": "Fc7EA8Q405"
+            }, 
+            "text": "<@U03KA9P37> commented on <@U03KC99B6>\u2019s file <https://sparksc.slack.com/files/U03KC99B6/F77R5DUDC/usc_irs_exempt_status.pdf.pdf|USC_IRS_exempt_status.pdf>: wow that is actually a beautiful logo. As much as people hate on the IRS, they do have some good logo design.", 
+            "ts": "1507237151.000004", 
+            "subtype": "file_comment", 
+            "is_intro": false, 
+            "file": {
+                "filetype": "pdf", 
+                "channels": [
+                    "C7524DAHW"
+                ], 
+                "display_as_bot": false, 
+                "id": "F77R5DUDC", 
+                "size": 141138, 
+                "thumb_pdf": "https://files.slack.com/files-tmb/T02M11BGS-F77R5DUDC-97399976ed/usc_irs_exempt_status.pdf_thumb_pdf.png", 
+                "title": "USC_IRS_exempt_status.pdf", 
+                "url_private": "https://files.slack.com/files-pri/T02M11BGS-F77R5DUDC/usc_irs_exempt_status.pdf.pdf", 
+                "ims": [], 
+                "thumb_pdf_w": 935, 
+                "external_type": "", 
+                "username": "", 
+                "timestamp": 1506025247, 
+                "public_url_shared": false, 
+                "editable": false, 
+                "url_private_download": "https://files.slack.com/files-pri/T02M11BGS-F77R5DUDC/download/usc_irs_exempt_status.pdf.pdf", 
+                "user": "U03KC99B6", 
+                "groups": [], 
+                "is_public": true, 
+                "pretty_type": "PDF", 
+                "name": "USC_IRS_exempt_status.pdf.pdf", 
+                "mimetype": "application/pdf", 
+                "permalink_public": "https://slack-files.com/T02M11BGS-F77R5DUDC-c7b73214da", 
+                "permalink": "https://sparksc.slack.com/files/U03KC99B6/F77R5DUDC/usc_irs_exempt_status.pdf.pdf", 
+                "is_external": false, 
+                "created": 1506025247, 
+                "comments_count": 1, 
+                "mode": "hosted", 
+                "thumb_pdf_h": 1210
+            }, 
+            "type": "message"
+        }, 
+        {
+            "text": "<@U03KC99B6> Is poverty an economic or cultural problem? (If both, how which space impacts it more and what realm do you tackle the problem in?)", 
+            "type": "message", 
+            "user": "U03KA9P37", 
+            "ts": "1507236571.000176"
+        }, 
+        {
+            "text": "<@U03KA9P37> has joined the channel", 
+            "type": "message", 
+            "user": "U03KA9P37", 
+            "ts": "1507236454.000189", 
+            "subtype": "channel_join"
+        }, 
+        {
+            "text": "<@U71HYP43U> has joined the channel", 
+            "type": "message", 
+            "user": "U71HYP43U", 
+            "ts": "1507186725.000007", 
+            "subtype": "channel_join"
+        }, 
+        {
+            "thread_ts": "1506030017.000050", 
+            "reactions": [
+                {
+                    "count": 2, 
+                    "name": "+1", 
+                    "users": [
+                        "U3YKV8G9Y", 
+                        "U0L1WL9L3"
+                    ]
+                }, 
+                {
+                    "count": 1, 
+                    "name": "joy", 
+                    "users": [
+                        "U02M0720Z"
+                    ]
+                }
+            ], 
+            "text": "You must be in the wrong channel, this channel is for asking questions for Irfan", 
+            "ts": "1506030351.000045", 
+            "user": "U0L200E86", 
+            "parent_user_id": "U02M1201A", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1506030017.000050", 
+            "subscribed": false, 
+            "reactions": [
+                {
+                    "count": 3, 
+                    "name": "innocent", 
+                    "users": [
+                        "U4QENBGTB", 
+                        "U0L200E86", 
+                        "U3YKV8G9Y"
+                    ]
+                }, 
+                {
+                    "count": 1, 
+                    "name": "heavy_plus_sign", 
+                    "users": [
+                        "U02M0720Z"
+                    ]
+                }, 
+                {
+                    "count": 1, 
+                    "name": "hearts", 
+                    "users": [
+                        "U02M0720Z"
+                    ]
+                }
+            ], 
+            "text": "this is ridiculous", 
+            "ts": "1506030017.000050", 
+            "unread_count": 1, 
+            "reply_count": 1, 
+            "user": "U02M1201A", 
+            "replies": [
+                {
+                    "user": "U0L200E86", 
+                    "ts": "1506030351.000045"
+                }
+            ], 
+            "type": "message"
+        }, 
+        {
+            "text": "<@U02M1201A> has joined the channel", 
+            "type": "message", 
+            "user": "U02M1201A", 
+            "ts": "1506030005.000008", 
+            "subtype": "channel_join"
+        }, 
+        {
+            "thread_ts": "1506028389.000465", 
+            "text": "but super OK with it lol", 
+            "ts": "1506028596.000122", 
+            "user": "U0L1WL9L3", 
+            "parent_user_id": "U0L200E86", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1506028389.000465", 
+            "text": "did not expect this to actually be used lmao", 
+            "ts": "1506028591.000200", 
+            "user": "U0L1WL9L3", 
+            "parent_user_id": "U0L200E86", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1506028389.000465", 
+            "subscribed": false, 
+            "text": "Lol this channel is wild", 
+            "ts": "1506028389.000465", 
+            "unread_count": 2, 
+            "reply_count": 2, 
+            "user": "U0L200E86", 
+            "replies": [
+                {
+                    "user": "U0L1WL9L3", 
+                    "ts": "1506028591.000200"
+                }, 
+                {
+                    "user": "U0L1WL9L3", 
+                    "ts": "1506028596.000122"
+                }
+            ], 
+            "type": "message"
+        }, 
+        {
+            "username": "irfan", 
+            "display_as_bot": false, 
+            "text": "<@U03KC99B6> uploaded a file: <https://sparksc.slack.com/files/U03KC99B6/F77R5DUDC/usc_irs_exempt_status.pdf.pdf|USC_IRS_exempt_status.pdf>", 
+            "upload": true, 
+            "ts": "1506025248.000100", 
+            "subtype": "file_share", 
+            "user": "U03KC99B6", 
+            "file": {
+                "filetype": "pdf", 
+                "channels": [
+                    "C7524DAHW"
+                ], 
+                "display_as_bot": false, 
+                "id": "F77R5DUDC", 
+                "size": 141138, 
+                "thumb_pdf": "https://files.slack.com/files-tmb/T02M11BGS-F77R5DUDC-97399976ed/usc_irs_exempt_status.pdf_thumb_pdf.png", 
+                "title": "USC_IRS_exempt_status.pdf", 
+                "url_private": "https://files.slack.com/files-pri/T02M11BGS-F77R5DUDC/usc_irs_exempt_status.pdf.pdf", 
+                "ims": [], 
+                "thumb_pdf_w": 935, 
+                "external_type": "", 
+                "username": "", 
+                "timestamp": 1506025247, 
+                "public_url_shared": false, 
+                "editable": false, 
+                "url_private_download": "https://files.slack.com/files-pri/T02M11BGS-F77R5DUDC/download/usc_irs_exempt_status.pdf.pdf", 
+                "user": "U03KC99B6", 
+                "groups": [], 
+                "is_public": true, 
+                "pretty_type": "PDF", 
+                "name": "USC_IRS_exempt_status.pdf.pdf", 
+                "mimetype": "application/pdf", 
+                "permalink_public": "https://slack-files.com/T02M11BGS-F77R5DUDC-c7b73214da", 
+                "permalink": "https://sparksc.slack.com/files/U03KC99B6/F77R5DUDC/usc_irs_exempt_status.pdf.pdf", 
+                "is_external": false, 
+                "created": 1506025247, 
+                "comments_count": 1, 
+                "mode": "hosted", 
+                "thumb_pdf_h": 1210
+            }, 
+            "type": "message", 
+            "bot_id": null
+        }, 
+        {
+            "thread_ts": "1506021707.000339", 
+            "text": "Viterbi org status", 
+            "ts": "1506025149.000577", 
+            "user": "U03KC99B6", 
+            "parent_user_id": "U4QENBGTB", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1506021707.000339", 
+            "text": "If it can get us a discount I'd say lets do it? Where would this 501c3 letter be coming from if it wasnt for spark specifically", 
+            "ts": "1506024140.000637", 
+            "user": "U4QENBGTB", 
+            "parent_user_id": "U4QENBGTB", 
+            "type": "message"
+        }, 
+        {
+            "text": "<@U0BGJ81L6> has left the channel", 
+            "type": "message", 
+            "user": "U0BGJ81L6", 
+            "ts": "1506023626.000077", 
+            "subtype": "channel_leave"
+        }, 
+        {
+            "thread_ts": "1506021707.000339", 
+            "text": "Technically we can show them a 501c3 letter, but its not for Spark SC specifically", 
+            "ts": "1506023353.000113", 
+            "user": "U03KC99B6", 
+            "parent_user_id": "U4QENBGTB", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1506021707.000339", 
+            "text": "woops", 
+            "ts": "1506022067.000337", 
+            "user": "U4QENBGTB", 
+            "parent_user_id": "U4QENBGTB", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1506021707.000339", 
+            "edited": {
+                "user": "U3YHUPFD1", 
+                "ts": "1506022081.000000"
+            }, 
+            "text": "<@U4QENBGTB> could be a good <#C67BA5FCY|ask-core> question :grin:", 
+            "ts": "1506021991.000254", 
+            "user": "U3YHUPFD1", 
+            "parent_user_id": "U4QENBGTB", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1506021707.000339", 
+            "last_read": "1506025149.000577", 
+            "subscribed": true, 
+            "text": "Quick question - does Spark SC qualify as a non-profit, and if so, do we have a 501c letterhead or something?", 
+            "ts": "1506021707.000339", 
+            "unread_count": 0, 
+            "reply_count": 5, 
+            "user": "U4QENBGTB", 
+            "replies": [
+                {
+                    "user": "U3YHUPFD1", 
+                    "ts": "1506021991.000254"
+                }, 
+                {
+                    "user": "U4QENBGTB", 
+                    "ts": "1506022067.000337"
+                }, 
+                {
+                    "user": "U03KC99B6", 
+                    "ts": "1506023353.000113"
+                }, 
+                {
+                    "user": "U4QENBGTB", 
+                    "ts": "1506024140.000637"
+                }, 
+                {
+                    "user": "U03KC99B6", 
+                    "ts": "1506025149.000577"
+                }
+            ], 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1505957247.000070", 
+            "text": "I definitley would", 
+            "ts": "1505960014.000051", 
+            "user": "U4QENBGTB", 
+            "parent_user_id": "U03KC99B6", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1505957247.000070", 
+            "text": "i think so? right?", 
+            "ts": "1505958991.000124", 
+            "user": "U03KC99B6", 
+            "parent_user_id": "U03KC99B6", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1505957247.000070", 
+            "text": "should i invite her as a mentor? she graduated 2014", 
+            "ts": "1505958336.000100", 
+            "user": "U3YHUPFD1", 
+            "parent_user_id": "U03KC99B6", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1505957247.000070", 
+            "last_read": "1505960295.956288", 
+            "subscribed": true, 
+            "text": "wow - so sick", 
+            "ts": "1505957247.000070", 
+            "unread_count": 0, 
+            "reply_count": 3, 
+            "user": "U03KC99B6", 
+            "replies": [
+                {
+                    "user": "U3YHUPFD1", 
+                    "ts": "1505958336.000100"
+                }, 
+                {
+                    "user": "U03KC99B6", 
+                    "ts": "1505958991.000124"
+                }, 
+                {
+                    "user": "U4QENBGTB", 
+                    "ts": "1505960014.000051"
+                }
+            ], 
+            "type": "message"
+        }, 
+        {
+            "username": "mimi", 
+            "display_as_bot": false, 
+            "text": "<@U3YHUPFD1> uploaded a file: <https://sparksc.slack.com/files/U3YHUPFD1/F76H04RGD/screen_shot_2017-09-20_at_6.25.56_pm.png|round 2> and commented: <@U03KC99B6> wtf who are all these people -- she seems super legit though <https://www.linkedin.com/in/francesca-chan-sadikin-56367236/>", 
+            "upload": true, 
+            "ts": "1505957193.000227", 
+            "subtype": "file_share", 
+            "user": "U3YHUPFD1", 
+            "file": {
+                "thumb_480_w": 480, 
+                "groups": [], 
+                "initial_comment": {
+                    "comment": "<@U03KC99B6> wtf who are all these people -- she seems super legit though <https://www.linkedin.com/in/francesca-chan-sadikin-56367236/>", 
+                    "created": 1505957191, 
+                    "timestamp": 1505957191, 
+                    "is_intro": true, 
+                    "user": "U3YHUPFD1", 
+                    "id": "Fc76EJNMTN"
+                }, 
+                "filetype": "png", 
+                "thumb_800_h": 215, 
+                "thumb_480": "https://files.slack.com/files-tmb/T02M11BGS-F76H04RGD-ad001d551f/screen_shot_2017-09-20_at_6.25.56_pm_480.png", 
+                "display_as_bot": false, 
+                "thumb_800_w": 800, 
+                "thumb_64": "https://files.slack.com/files-tmb/T02M11BGS-F76H04RGD-ad001d551f/screen_shot_2017-09-20_at_6.25.56_pm_64.png", 
+                "size": 84613, 
+                "original_h": 480, 
+                "thumb_360_w": 360, 
+                "title": "round 2", 
+                "url_private": "https://files.slack.com/files-pri/T02M11BGS-F76H04RGD/screen_shot_2017-09-20_at_6.25.56_pm.png", 
+                "thumb_720_h": 194, 
+                "thumb_360": "https://files.slack.com/files-tmb/T02M11BGS-F76H04RGD-ad001d551f/screen_shot_2017-09-20_at_6.25.56_pm_360.png", 
+                "id": "F76H04RGD", 
+                "ims": [], 
+                "thumb_720_w": 720, 
+                "thumb_80": "https://files.slack.com/files-tmb/T02M11BGS-F76H04RGD-ad001d551f/screen_shot_2017-09-20_at_6.25.56_pm_80.png", 
+                "comments_count": 1, 
+                "thumb_360_h": 97, 
+                "thumb_480_h": 129, 
+                "external_type": "", 
+                "username": "", 
+                "thumb_800": "https://files.slack.com/files-tmb/T02M11BGS-F76H04RGD-ad001d551f/screen_shot_2017-09-20_at_6.25.56_pm_800.png", 
+                "timestamp": 1505957191, 
+                "public_url_shared": false, 
+                "editable": false, 
+                "thumb_160": "https://files.slack.com/files-tmb/T02M11BGS-F76H04RGD-ad001d551f/screen_shot_2017-09-20_at_6.25.56_pm_160.png", 
+                "url_private_download": "https://files.slack.com/files-pri/T02M11BGS-F76H04RGD/download/screen_shot_2017-09-20_at_6.25.56_pm.png", 
+                "thumb_1024": "https://files.slack.com/files-tmb/T02M11BGS-F76H04RGD-ad001d551f/screen_shot_2017-09-20_at_6.25.56_pm_1024.png", 
+                "user": "U3YHUPFD1", 
+                "image_exif_rotation": 1, 
+                "thumb_960": "https://files.slack.com/files-tmb/T02M11BGS-F76H04RGD-ad001d551f/screen_shot_2017-09-20_at_6.25.56_pm_960.png", 
+                "is_public": true, 
+                "pretty_type": "PNG", 
+                "name": "Screen Shot 2017-09-20 at 6.25.56 PM.png", 
+                "mimetype": "image/png", 
+                "permalink_public": "https://slack-files.com/T02M11BGS-F76H04RGD-b36b165e8e", 
+                "permalink": "https://sparksc.slack.com/files/U3YHUPFD1/F76H04RGD/screen_shot_2017-09-20_at_6.25.56_pm.png", 
+                "is_external": false, 
+                "created": 1505957191, 
+                "thumb_1024_h": 276, 
+                "thumb_960_h": 259, 
+                "original_w": 1782, 
+                "thumb_960_w": 960, 
+                "thumb_1024_w": 1024, 
+                "mode": "hosted", 
+                "thumb_720": "https://files.slack.com/files-tmb/T02M11BGS-F76H04RGD-ad001d551f/screen_shot_2017-09-20_at_6.25.56_pm_720.png", 
+                "channels": [
+                    "C7524DAHW"
+                ]
+            }, 
+            "type": "message", 
+            "bot_id": null
+        }, 
+        {
+            "text": "1 from makerbot, 1 from inventables, and 1 from oculus - they'll all be good, and we have a couple of workshops lined up with makers &amp; vrsc (?)\nBHE will have 3-4 capable robotics people on site at any given time as well, but ASC is lacking", 
+            "type": "message", 
+            "user": "U3YHUPFD1", 
+            "ts": "1505956144.000269", 
+            "edited": {
+                "user": "U3YHUPFD1", 
+                "ts": "1505956153.000000"
+            }
+        }, 
+        {
+            "text": "very low - 3", 
+            "type": "message", 
+            "user": "U3YHUPFD1", 
+            "ts": "1505955566.000129"
+        }, 
+        {
+            "text": "Strange - seems like a lot of extra overhead... how are we doing on # of mentors?", 
+            "type": "message", 
+            "user": "U03KC99B6", 
+            "ts": "1505953919.000131"
+        }, 
+        {
+            "text": "not too big of a commitment", 
+            "type": "message", 
+            "user": "U4QENBGTB", 
+            "ts": "1505953466.000227"
+        }, 
+        {
+            "text": "I think we should invite her but for like sunday afternoon or something", 
+            "type": "message", 
+            "user": "U4QENBGTB", 
+            "ts": "1505953455.000068"
+        }, 
+        {
+            "text": "<@U4QENBGTB> has joined the channel", 
+            "ts": "1505953297.000042", 
+            "subtype": "channel_join", 
+            "user": "U4QENBGTB", 
+            "type": "message", 
+            "inviter": "U3YHUPFD1"
+        }, 
+        {
+            "username": "mimi", 
+            "display_as_bot": false, 
+            "text": "<@U3YHUPFD1> uploaded a file: <https://sparksc.slack.com/files/U3YHUPFD1/F75SHHP8R/screen_shot_2017-09-20_at_5.12.17_pm.png|debra do> and commented: <@U03KC99B6>: <@U4QENBGTB> and I are discussing the possibility of bringing in Debra Do (<https://www.linkedin.com/in/debra-do/>) as a mentor... She initially wanted to participate. She's worked with a girls who code club before, but also might bring a weird vibe? What do you think?", 
+            "upload": true, 
+            "ts": "1505953291.000132", 
+            "subtype": "file_share", 
+            "user": "U3YHUPFD1", 
+            "file": {
+                "thumb_480_w": 480, 
+                "groups": [], 
+                "initial_comment": {
+                    "comment": "<@U03KC99B6>: <@U4QENBGTB> and I are discussing the possibility of bringing in Debra Do (<https://www.linkedin.com/in/debra-do/>) as a mentor... She initially wanted to participate. She's worked with a girls who code club before, but also might bring a weird vibe? What do you think?", 
+                    "created": 1505953288, 
+                    "timestamp": 1505953288, 
+                    "is_intro": true, 
+                    "user": "U3YHUPFD1", 
+                    "id": "Fc76CB6YPL"
+                }, 
+                "filetype": "png", 
+                "thumb_800_h": 641, 
+                "thumb_480": "https://files.slack.com/files-tmb/T02M11BGS-F75SHHP8R-178a0a3b01/screen_shot_2017-09-20_at_5.12.17_pm_480.png", 
+                "display_as_bot": false, 
+                "thumb_800_w": 800, 
+                "thumb_64": "https://files.slack.com/files-tmb/T02M11BGS-F75SHHP8R-178a0a3b01/screen_shot_2017-09-20_at_5.12.17_pm_64.png", 
+                "size": 426620, 
+                "original_h": 1322, 
+                "thumb_360_w": 360, 
+                "title": "debra do", 
+                "url_private": "https://files.slack.com/files-pri/T02M11BGS-F75SHHP8R/screen_shot_2017-09-20_at_5.12.17_pm.png", 
+                "thumb_720_h": 577, 
+                "thumb_360": "https://files.slack.com/files-tmb/T02M11BGS-F75SHHP8R-178a0a3b01/screen_shot_2017-09-20_at_5.12.17_pm_360.png", 
+                "id": "F75SHHP8R", 
+                "ims": [], 
+                "thumb_720_w": 720, 
+                "thumb_80": "https://files.slack.com/files-tmb/T02M11BGS-F75SHHP8R-178a0a3b01/screen_shot_2017-09-20_at_5.12.17_pm_80.png", 
+                "comments_count": 1, 
+                "thumb_360_h": 288, 
+                "thumb_480_h": 385, 
+                "external_type": "", 
+                "username": "", 
+                "thumb_800": "https://files.slack.com/files-tmb/T02M11BGS-F75SHHP8R-178a0a3b01/screen_shot_2017-09-20_at_5.12.17_pm_800.png", 
+                "timestamp": 1505953288, 
+                "public_url_shared": false, 
+                "editable": false, 
+                "thumb_160": "https://files.slack.com/files-tmb/T02M11BGS-F75SHHP8R-178a0a3b01/screen_shot_2017-09-20_at_5.12.17_pm_160.png", 
+                "url_private_download": "https://files.slack.com/files-pri/T02M11BGS-F75SHHP8R/download/screen_shot_2017-09-20_at_5.12.17_pm.png", 
+                "thumb_1024": "https://files.slack.com/files-tmb/T02M11BGS-F75SHHP8R-178a0a3b01/screen_shot_2017-09-20_at_5.12.17_pm_1024.png", 
+                "user": "U3YHUPFD1", 
+                "image_exif_rotation": 1, 
+                "thumb_960": "https://files.slack.com/files-tmb/T02M11BGS-F75SHHP8R-178a0a3b01/screen_shot_2017-09-20_at_5.12.17_pm_960.png", 
+                "is_public": true, 
+                "pretty_type": "PNG", 
+                "name": "Screen Shot 2017-09-20 at 5.12.17 PM.png", 
+                "mimetype": "image/png", 
+                "permalink_public": "https://slack-files.com/T02M11BGS-F75SHHP8R-96f9b78739", 
+                "permalink": "https://sparksc.slack.com/files/U3YHUPFD1/F75SHHP8R/screen_shot_2017-09-20_at_5.12.17_pm.png", 
+                "is_external": false, 
+                "created": 1505953288, 
+                "thumb_1024_h": 820, 
+                "thumb_960_h": 769, 
+                "original_w": 1650, 
+                "thumb_960_w": 960, 
+                "thumb_1024_w": 1024, 
+                "mode": "hosted", 
+                "thumb_720": "https://files.slack.com/files-tmb/T02M11BGS-F75SHHP8R-178a0a3b01/screen_shot_2017-09-20_at_5.12.17_pm_720.png", 
+                "channels": [
+                    "C7524DAHW"
+                ]
+            }, 
+            "type": "message", 
+            "bot_id": null
+        }, 
+        {
+            "thread_ts": "1505934173.000493", 
+            "reactions": [
+                {
+                    "count": 1, 
+                    "name": "heavy_plus_sign", 
+                    "users": [
+                        "U02M0720Z"
+                    ]
+                }
+            ], 
+            "text": "<#C10TSTLDV|untie>", 
+            "ts": "1505949008.000217", 
+            "user": "U03KC99B6", 
+            "parent_user_id": "U0BGJ81L6", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1505933844.000113", 
+            "text": "ribeye (cap) - hands down", 
+            "ts": "1505948944.000330", 
+            "user": "U03KC99B6", 
+            "parent_user_id": "U0L200E86", 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1505934173.000493", 
+            "last_read": "1505949008.000217", 
+            "subscribed": true, 
+            "text": "<@U03KC99B6> least favorite Slack channel? ", 
+            "ts": "1505934173.000493", 
+            "unread_count": 0, 
+            "reply_count": 1, 
+            "user": "U0BGJ81L6", 
+            "replies": [
+                {
+                    "user": "U03KC99B6", 
+                    "ts": "1505949008.000217"
+                }
+            ], 
+            "type": "message"
+        }, 
+        {
+            "thread_ts": "1505933844.000113", 
+            "last_read": "1505948944.000330", 
+            "subscribed": true, 
+            "text": "<@U03KC99B6> favorite cut of steak?", 
+            "ts": "1505933844.000113", 
+            "unread_count": 0, 
+            "reply_count": 1, 
+            "user": "U0L200E86", 
+            "replies": [
+                {
+                    "user": "U03KC99B6", 
+                    "ts": "1505948944.000330"
+                }
+            ], 
+            "type": "message"
+        }, 
+        {
+            "text": "I'd only go to Target if they didnt have what i wanted at Joe's", 
+            "type": "message", 
+            "user": "U03KC99B6", 
+            "ts": "1505930971.000533"
+        }, 
+        {
+            "thread_ts": "1505895906.000171", 
+            "subscribed": false, 
+            "text": "hey <@U03KC99B6> what are your thoughts on trader joes vs. target", 
+            "ts": "1505895906.000171", 
+            "unread_count": 1, 
+            "reply_count": 1, 
+            "user": "U3YHUPFD1", 
+            "replies": [
+                {
+                    "user": "U3YKV9VGA", 
+                    "ts": "1507853811.000243"
+                }
+            ], 
+            "type": "message"
+        }, 
+        {
+            "text": "having trouble keeping up w all these questions", 
+            "type": "message", 
+            "user": "U03KC99B6", 
+            "ts": "1505894965.000149"
+        }, 
+        {
+            "text": ":thumbsdown:", 
+            "type": "message", 
+            "user": "U0BGJ81L6", 
+            "ts": "1505894851.000421"
+        }, 
+        {
+            "text": "<@U3YKV8G9Y> has joined the channel", 
+            "ts": "1505882035.000057", 
+            "subtype": "channel_join", 
+            "user": "U3YKV8G9Y", 
+            "type": "message", 
+            "inviter": "U3YHUPFD1"
+        }, 
+        {
+            "text": "<@U3XV9T3DX> has joined the channel", 
+            "ts": "1505882024.000141", 
+            "subtype": "channel_join", 
+            "user": "U3XV9T3DX", 
+            "type": "message", 
+            "inviter": "U3YHUPFD1"
+        }, 
+        {
+            "text": "<@U0L1WL9L3> set the channel topic: For those times when you need some sage advice.", 
+            "ts": "1505881920.000040", 
+            "topic": "For those times when you need some sage advice.", 
+            "subtype": "channel_topic", 
+            "user": "U0L1WL9L3", 
+            "type": "message"
+        }, 
+        {
+            "text": "<@U0L1WL9L3> set the channel topic: For those items when you need some sage advice.", 
+            "ts": "1505881911.000135", 
+            "topic": "For those items when you need some sage advice.", 
+            "subtype": "channel_topic", 
+            "user": "U0L1WL9L3", 
+            "type": "message"
+        }, 
+        {
+            "text": "<@U3YHUPFD1> sometimes i just wanna be included", 
+            "type": "message", 
+            "user": "U0BFB5WDS", 
+            "ts": "1505877476.000086"
+        }, 
+        {
+            "text": "this conversation definitely doesnt need to be facilitated by all of core :joy:", 
+            "type": "message", 
+            "user": "U3YHUPFD1", 
+            "ts": "1505876352.000126"
+        }, 
+        {
+            "text": "i feel like this is what texting irfan is for", 
+            "type": "message", 
+            "user": "U3YHUPFD1", 
+            "ts": "1505876339.000205"
+        }, 
+        {
+            "text": "guys why i am the only non core non irfan member here", 
+            "type": "message", 
+            "user": "U3YHUPFD1", 
+            "ts": "1505876335.000058"
+        }, 
+        {
+            "text": "omg lol", 
+            "type": "message", 
+            "user": "U03KC99B6", 
+            "ts": "1505876273.000059"
+        }, 
+        {
+            "text": "Good call", 
+            "type": "message", 
+            "user": "U0L200E86", 
+            "ts": "1505876129.000174"
+        }, 
+        {
+            "text": "<@U0L3Z79QD> has joined the channel", 
+            "ts": "1505861688.000112", 
+            "subtype": "channel_join", 
+            "user": "U0L3Z79QD", 
+            "type": "message", 
+            "inviter": "U0L1WL9L3"
+        }, 
+        {
+            "text": "<@U0BFB5WDS> has joined the channel", 
+            "ts": "1505861688.000091", 
+            "subtype": "channel_join", 
+            "user": "U0BFB5WDS", 
+            "type": "message", 
+            "inviter": "U0L1WL9L3"
+        }, 
+        {
+            "text": "<@U0BGJ81L6> has joined the channel", 
+            "ts": "1505861688.000065", 
+            "subtype": "channel_join", 
+            "user": "U0BGJ81L6", 
+            "type": "message", 
+            "inviter": "U0L1WL9L3"
+        }, 
+        {
+            "text": "<@U3YHUPFD1> has joined the channel", 
+            "ts": "1505861688.000040", 
+            "subtype": "channel_join", 
+            "user": "U3YHUPFD1", 
+            "type": "message", 
+            "inviter": "U0L1WL9L3"
+        }, 
+        {
+            "text": "<@U03KC99B6> has joined the channel", 
+            "ts": "1505861688.000014", 
+            "subtype": "channel_join", 
+            "user": "U03KC99B6", 
+            "type": "message", 
+            "inviter": "U0L1WL9L3"
+        }, 
+        {
+            "text": "<@U0L200E86> has joined the channel", 
+            "ts": "1505861687.000256", 
+            "subtype": "channel_join", 
+            "user": "U0L200E86", 
+            "type": "message", 
+            "inviter": "U0L1WL9L3"
+        }, 
+        {
+            "text": "<@U0L1WL9L3> has joined the channel", 
+            "type": "message", 
+            "user": "U0L1WL9L3", 
+            "ts": "1505861687.000031", 
+            "subtype": "channel_join"
+        }
+    ], 
+    "channel_info": {
+        "is_general": false, 
+        "name_normalized": "ask-irfan", 
+        "is_channel": true, 
+        "creator": "U0L1WL9L3", 
+        "is_member": true, 
+        "is_archived": false, 
+        "topic": {
+            "last_set": 1505881920, 
+            "value": "For those times when you need some sage advice.", 
+            "creator": "U0L1WL9L3"
+        }, 
+        "unread_count_display": 0, 
+        "id": "C7524DAHW", 
+        "previous_names": [], 
+        "last_read": "1510029792.000179", 
+        "is_org_shared": false, 
+        "is_mpim": false, 
+        "purpose": {
+            "last_set": 0, 
+            "value": "", 
+            "creator": ""
+        }, 
+        "members": [
+            "U02M0720Z", 
+            "U02M1201A", 
+            "U03KA9P37", 
+            "U03KC99B6", 
+            "U0BFB5WDS", 
+            "U0BFCGCKY", 
+            "U0L1WL9L3", 
+            "U0L200E86", 
+            "U0L3Z79QD", 
+            "U3XV9T3DX", 
+            "U3YHUPFD1", 
+            "U3YKV8G9Y", 
+            "U3YKV9VGA", 
+            "U4QENBGTB", 
+            "U71FS6QNP", 
+            "U71HYP43U", 
+            "U72EPHLDC"
+        ], 
+        "is_starred": true, 
+        "is_private": false, 
+        "is_shared": false, 
+        "name": "ask-irfan", 
+        "created": 1505861687, 
+        "unread_count": 0, 
+        "unlinked": 0, 
+        "latest": {
+            "text": "<@U72EPHLDC> has joined the channel", 
+            "type": "message", 
+            "user": "U72EPHLDC", 
+            "ts": "1510029792.000179", 
+            "subtype": "channel_join"
+        }
+    }
+}

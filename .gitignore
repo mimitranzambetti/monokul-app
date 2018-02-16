@@ -1,0 +1,11 @@
+/node_modules
+*.iml
+
+*.xml
+
+*.pyc
+
+*.csv
+*.tsv
+*.zip
+*.p

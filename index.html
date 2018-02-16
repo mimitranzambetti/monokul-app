@@ -7,56 +7,76 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
   <body>
-    <script>
-      var fullpath = document.getElementById("fileimport").value;
-    </script>
+      <div id="page-loading">
+          <div class="header"></div>
+          <div class="content">
+          <h1>Loading, please wait.</h1>
+          <p id='waiting-paragraph'>This may take several minutes. Thanks for waiting!</p>
+          <br><br>
+          </div>
+        </div>
+      </div>
 
-
-    <div class="header"></div>
-    <div class="content">
-
-    <h1>Welcome to Monokul's Web App</h1>
-
-    <form role="form">
-    <label for="token">Enter Slack Token:</label><br>
-    <input type="text" name="token" placeholder="Enter Token"><br>
-    <a href="https://get.slack.help/hc/en-us/articles/215770388-Create-and-regenerate-API-tokens" target="_blank">How to find your Slack token</a><br><br>
-
-    <!-- <label for="file">Upload File:</label><br>
-    <input type="file" name="fileimport"> -->
-    <!-- <input type="text" name="file" placeholder="Choose file" id="filename">
-    <label class="fileContainer">Choose file
-    <input type="file" class="file" name="file" id="fileimport"/>
-    </label> -->
-
-    <!-- <div id="holder">
-      Drag your file here
+    <div id="page-1">
+      <div class="header"></div>
+      <div class="content">
+      <h1>Welcome to Monokul</h1>
+      <form role="form">
+      <label for="token">Enter Slack Token:</label><br>
+      <input type="text" name="token" placeholder="Enter Token" id="token"><br>
+      <a href="https://get.slack.help/hc/en-us/articles/215770388-Create-and-regenerate-API-tokens" target="_blank">How to find your Slack token</a><br><br>
+      <br><br>
+      <a id="send-slack-token" href="#"><div class="button">Next Page</div></a>
+      </form>
+      <br><br>
+      </div>
     </div>
 
-    <script>
-      document.addEventListener('drop', function (e) {
-        e.preventDefault();
-        e.stopPropagation();
+    <div id="page-2">
+      <div class="header"></div>
+      <div class="content">
+      <h1>Welcome to Monokul</h1>
+      <form role="form">
+      <label for="table">Select Channels:</label>
+      <p>Pick which channels to focus on, and leave the ones you want to exclude</p>
+      <table id="channels">
+        <tr class="">
+          <th>Channel</th>
+          <th>Selected</th>
+        </tr>
+      </table>
+      <br>
 
-        for (let f of e.dataTransfer.files) {
-          console.log('File(s) you dragged here: ', f.path)
-        }
-      });
-      document.addEventListener('dragover', function (e) {
-        e.preventDefault();
-        e.stopPropagation();
-      });
-    </script> -->
+      <label for="table">Add Tags:</label>
+      <p>Sort through our users to tag them by gender.</p>
+      <table id="gender-tags">
+        <tr>
+          <th>Username</th>
+          <th>Gender</th>
+        </tr>
+      </table>
+      <br><br>
+      <a href="#" id="back"><div class="button button-grey">Back</div></a>
+      <a href="#" id="submit-custom-info"><div class="button">Submit</div></a>
+      </form>
+      <br><br>
+      </div>
+    </div>
 
-    <!--check https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file
-    for instructions on customizing upload file button-->
-    <br><br>
-    <!-- <input type="submit" class="button" value="Submit" onclick="window.location.href ='customize.html';"> -->
-    <a href="customize.html"><div class="button">Next Page</div></a>
-    </form>
+    <div id="page-3">
+      <div class="header"></div>
+      <div class="content">
+      <h1 style="margin:auto; margin-top: 150px; text-align:center">All done! Now, you can send us the file monokul_export.zip at analytics@monokul.com</h1>
+    </div>
 
-    <br><br>
-
+    <div id="page-error">
+        <div class="header"></div>
+        <div class="content">
+        <h1>Error</h1>
+        <p id='waiting-paragraph'>You've encountered an error. Please double check your Slack token and try again.</p>
+        <br><br>
+        </div>
+      </div>
     </div>
 
     <!-- All of the Node.js APIs are available in this renderer process. -->
