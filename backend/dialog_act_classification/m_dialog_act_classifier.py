@@ -1,6 +1,6 @@
 from __future__ import division
 import inspect
-from swa import Transcript
+from .swa import Transcript
 from os import listdir
 from time import time
 from re import findall, sub
@@ -44,8 +44,8 @@ class BagOfWords:
         utter_text = []
         # form feature vector for sentences
         for utter in utterances:
-            print "utter: "
-            print utter
+            # print "utter: "
+            # print utter
             feature_vector_utter = [0] * len(self.space)
             for utterToken in utter.tokens:
                 if utterToken in ['{', '}', '[', ']', '/']:  # ignore literals
@@ -66,7 +66,7 @@ class Slack_BagOfWords:
         # generate space for bag of words on all the data
         # space => {'unique_word': (unique_index_for_word, <number_of_occurences>)..}
         for utter in data:
-            #print utter.text
+            ## print utter.text
             for token in utter.tokens:
                if token in ['{', '}', '[', ']', '/']:  # ignore literals
                    continue
@@ -298,7 +298,7 @@ class Classifier:
             if dir.startswith('.'):
                 continue
 
-            #print dir
+            ## print dir
             for file in listdir(self.datasetPath + dir):
                 if file.startswith('.'):
                     continue
@@ -329,7 +329,7 @@ class Classifier:
             feature_vectors.append(feature_vector_utter)
             previousUtter = utter.act_tag
             #feature_vectors.append([feature_vector[key] for key in feature_vector])
-            #print utter.text, feature_vector
+            ## print utter.text, feature_vector
 
         return feature_vectors, speec_acts, utter_text
 
@@ -364,12 +364,12 @@ class Classifier:
             feature_vectors.append(feature_vectors_bow[i] + feature_vectors_cust[i])
         return feature_vectors
 
-    def findmajorityclass(self,speech_act):
-        class_dist=Counter(speech_act)
-        majority_class=class_dist.most_common(1)
-    	print "Majority class", majority_class
-    	count=majority_class[0]
-    	print "Majority percentage: ",100*count[1]/len(speech_act)
+    def findmajorityclass(self, speech_act):
+        class_dist = Counter(speech_act)
+        majority_class = class_dist.most_common(1)
+    	# print "Majority class", majority_class
+        count = majority_class[0]
+    	# print "Majority percentage: ",100*count[1]/len(speech_act)
 
 def main():
     # Bag of Words
@@ -379,22 +379,22 @@ def main():
     dataStartTime = time()
     classifier.getData()
     dataEndTime = time()
-    print "Data loaded in", dataEndTime - dataStartTime, "sec"
+    # print "Data loaded in", dataEndTime - dataStartTime, "sec"
 
-    # print classifier.data[2].utterance_count
+    # # print classifier.data[2].utterance_count
     # get test and train data
     classifier.getTrainAndTestData()
 
     populateSpaceStartTime = time()
     # populate space
-    # print "classifier.trainData"
-    # print classifier.trainData
+    # # print "classifier.trainData"
+    # # print classifier.trainData
     bagofwords.populateSpace(classifier.trainData)
     slack_bow.populateSpace(classifier.trainData)
     pickle.dump(slack_bow, open('slack_bow.p', 'wb'))
     populateSpaceEndTime = time()
-    print "Space populated extracted in", populateSpaceEndTime - populateSpaceStartTime, "sec"
-    print "Space length:", len(bagofwords.space)
+    # print "Space populated extracted in", populateSpaceEndTime - populateSpaceStartTime, "sec"
+    # print "Space length:", len(bagofwords.space)
 
     f = open('../Analysis/space.txt','w')
     f.write(','.join(bagofwords.space))
@@ -404,19 +404,19 @@ def main():
     # transform a feature vector
     feature_vectors_bow, speech_acts, utter_text = bagofwords.featurize(classifier.trainData)
     featureEndTime = time()
-    print "Feature extracted in", featureEndTime - featureStartTime, "sec"
-    print "feature_vectors_bow",len(feature_vectors_bow)
+    # print "Feature extracted in", featureEndTime - featureStartTime, "sec"
+    # print "feature_vectors_bow",len(feature_vectors_bow)
 
     featureStartTime = time()
     # transform a feature vector
     feature_vectors_cust, speech_acts, utter_text = classifier.featurize(classifier.trainData)
     featureEndTime = time()
-    print "Feature extracted in", featureEndTime - featureStartTime, "sec"
-    print "feature_vectors_cust",len(feature_vectors_cust)
+    # print "Feature extracted in", featureEndTime - featureStartTime, "sec"
+    # print "feature_vectors_cust",len(feature_vectors_cust)
     feature_vectors = classifier.combineFeatureVectors(feature_vectors_bow, feature_vectors_cust)
-    print len(feature_vectors)
-    print "feature_vectors_cust[0]"
-    print feature_vectors_cust[0]
+    # print len(feature_vectors)
+    # print "feature_vectors_cust[0]"
+    # print feature_vectors_cust[0]
 
     # normalize speech acts into classes
     classifier.normalizeSpeechAct(speech_acts)
@@ -427,12 +427,12 @@ def main():
     clf = OneVsRestClassifier(SVC(C=1, kernel = 'linear', gamma = 1, verbose= False, probability=True))
     clf.fit(feature_vectors, speech_acts)
     trainEndTime = time()
-    print "Model trained in",trainEndTime - trainStartTime, "sec"
+    # print "Model trained in",trainEndTime - trainStartTime, "sec"
 
     feature_vectors_bow, labelled_speech_acts, utter_text = bagofwords.featurize(classifier.testData)
-    print "len(feature_vectors_bow[0])", len(feature_vectors_bow[0])
+    # print "len(feature_vectors_bow[0])", len(feature_vectors_bow[0])
     feature_vectors_cust, speech_acts, utter_text = classifier.featurize(classifier.testData)
-    print "len(feature_vectors_cust[0])",len(feature_vectors_cust[0])
+    # print "len(feature_vectors_cust[0])",len(feature_vectors_cust[0])
 
     feature_vectors = classifier.combineFeatureVectors(feature_vectors_bow, feature_vectors_cust)
     # normalize speech act for test data
@@ -442,10 +442,10 @@ def main():
     # predict speech act for test
     predicted_speech_act = clf.predict(feature_vectors)
     predictionEndTime = time()
-    print "Prediction time", predictionEndTime - predictionStartTime
+    # print "Prediction time", predictionEndTime - predictionStartTime
 
     classifier.normalizePrediction(predicted_speech_act, labelled_speech_acts)
-    print set(predicted_speech_act), set(labelled_speech_acts)
+    # print set(predicted_speech_act), set(labelled_speech_acts)
     correctResult = Counter()
     wrongResult = Counter()
 
@@ -458,24 +458,24 @@ def main():
     total_correct = sum([correctResult[i] for i in correctResult])
     total_wrong = len(predicted_speech_act) - total_correct
 
-    print "total_correct", total_correct
-    print "total wrong", total_wrong
-    print "accuracy", (total_correct/len(predicted_speech_act)) * 100
+    # print "total_correct", total_correct
+    # print "total wrong", total_wrong
+    # print "accuracy", (total_correct/len(predicted_speech_act)) * 100
 
-    print "Classification_report:\n", classification_report(labelled_speech_acts, predicted_speech_act)#, target_names=target_names)
-    print "accuracy_score:", round(accuracy_score(labelled_speech_acts, predicted_speech_act), 2)
+    # print "Classification_report:\n", classification_report(labelled_speech_acts, predicted_speech_act)#, target_names=target_names)
+    # print "accuracy_score:", round(accuracy_score(labelled_speech_acts, predicted_speech_act), 2)
 
     pickle.dump(classifier, open('classifier.p', 'wb'))
     pickle.dump(clf, open('clf.p', 'wb'))
-    print "saved"
+    # print "saved"
 
-def create_slack_message_dataset():
-    with open('data.json') as data_file:    
-        data = json.load(data_file)
-    for item in data:
-        for key in item:
-            if key == 'text':
-                print(item[key])
+# def create_slack_message_dataset():
+#     with open('data.json') as data_file:    
+#         data = json.load(data_file)
+#     for item in data:
+#         for key in item:
+#             if key == 'text':
+#                 # print(item[key])
 
 def test_message(message):
     clf = pickle.load(open('clf.p', 'rb'))
@@ -485,7 +485,7 @@ def test_message(message):
     feature_vector = []
     feature_vector.append(feature_vector_bow + feature_vector_cust)
     prediction = clf.predict(feature_vector)
-    print prediction
+    # print prediction
 
 def engagement_analysis(messages, output_path, clf, bow):
     # messages is an array of messages :)
@@ -533,16 +533,16 @@ def engagement_analysis(messages, output_path, clf, bow):
 
 
 def classify_message(message, clf, bow):
-    print "featurizing BOW"
+    # print "featurizing BOW"
     feature_vector_bow = bow.featurize([message])[0]
-    print "extracting features"
+    # print "extracting features"
     feature_vector_cust = extract_features(message)
-    print "creating feature_vector"
+    # print "creating feature_vector"
     feature_vector = []
     feature_vector.append(feature_vector_bow + feature_vector_cust)
-    print "predicting"
+    # print "predicting"
     prediction = clf.predict(feature_vector)
-    print "returning"
+    # print "returning"
     return prediction
 
 def classify_messages(messages, clf, bow):
@@ -574,7 +574,7 @@ def recognition_analysis(messages, output_path, clf, bow):
     message_texts = map(lambda m: m[u"text"].encode('ascii','ignore'), messages)
     if len(message_texts) < 1:
         return
-    # print message_texts[0]
+    # # print message_texts[0]
     predicted = classify_messages(message_texts, clf, bow)
     ind = 0
     for prediction in predicted:

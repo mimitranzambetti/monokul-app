@@ -27,9 +27,9 @@ class MonokulApi(object):
         ret = download_slack_history.find_slack_channels_and_users(token)
         print("found slack channels")
         return ret
-    def run_analyses(self, token):
-        download_slack_history.download_slack_history(token)
-        app.run_analyses()
+    def run_analyses(self, options):
+        download_slack_history.download_slack_history(options.token)
+        app.run_analyses(options.channels_to_analyze)
         return "greenlet completed!"
 
 

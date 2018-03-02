@@ -115,14 +115,16 @@ def analyze_gratitude(df, users, output_path):
     out_file.close()
 
 
-def dac_analyses(rootdir):
+def dac_analyses(rootdir, channels_to_analyze):
     print("Running analyses...")
     channels = []
     total_messages_analyzed = 0
 
     for subdir, dirs, files in os.walk(rootdir):
         for file in files:
-            print file
+            if file not in channels_to_analyze:
+                continue
+            print(file)
             channel_name = file[:-5]
             channels.append(file)
             all_messages = []
@@ -142,7 +144,7 @@ def dac_analyses(rootdir):
                                 'weekly'))
             month_by_month_analysis(df, users, os.path.join(os.pardir, 'export', 'by_channel', channel_name, \
                                 'monthly'))
-    print "done with DAC analysis"
+    print("done with DAC analysis")
     return total_messages_analyzed
 
 
@@ -153,21 +155,21 @@ def zipdir(path, ziph):
             ziph.write(os.path.join(root, file))
 
 
-def run_analyses():
+def run_analyses(channels_to_analyze):
     path_to_analyze = os.path.join(os.pardir, 'intermediate_files', 'slack_messages', 'channels')
-    print "calling dac_analysis on: "
-    print path_to_analyze
-    dac_analyses(path_to_analyze)
+    print("calling dac_analysis on: ")
+    print(path_to_analyze)
+    dac_analyses(path_to_analyze, channels_to_analyze)
     path_to_analyze = os.path.join(os.pardir, 'intermediate_files', 'slack_messages', 'private_channels')
-    print "calling dac_analysis on: "
-    print path_to_analyze
-    dac_analyses(path_to_analyze)
-    print "zipping file"
+    print("calling dac_analysis on: ")
+    print(path_to_analyze)
+    dac_analyses(path_to_analyze, channels_to_analyze)
+    print("zipping file")
     zipf = zipfile.ZipFile('monokul_export.zip', 'w', zipfile.ZIP_DEFLATED)
     zipdir(os.path.join(os.pardir, 'export', 'by_channel'), zipf)
     zipf.close()
-    print "done zipping"
-    print "returning"
+    print("done zipping")
+    print("returning")
     return 0
     
 

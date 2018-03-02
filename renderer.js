@@ -3,7 +3,8 @@
 document.querySelector('#page-1').style.display = 'none'
 document.querySelector('#page-2').style.display = 'none'
 document.querySelector('#page-3').style.display = 'none'
-document.querySelector('#page-error').style.display = 'none'
+document.querySelector('#page-auth-error').style.display = 'none'
+document.querySelector('#page-general-error').style.display = 'none'
 
 const zerorpc = require("zerorpc")
 let client = new zerorpc.Client({heartbeatInterval: Math.pow(10, 6), timeout: Math.pow(10, 6)})
@@ -13,6 +14,7 @@ let token = document.querySelector('#token')
 let send_slack_token = document.querySelector('#send-slack-token')
 let submit_custom_info = document.querySelector('#submit-custom-info')
 let back = document.querySelector('#back')
+let error_back = document.querySelector('#error-back')
 
 let tokenValue = null
 let slackChannelData = null
@@ -25,7 +27,12 @@ send_slack_token.addEventListener('click', () => {
   tokenValue = token.value
   client.invoke("send_slack_token", token.value, (error, res) => {
     if(error) {
-      console.error(error)
+      if (error == 'Error: invalid_auth') {
+        console.log("error is invalid auth")
+        document.querySelector('#page-loading').style.display = 'none'
+        document.querySelector('#page-auth-error').style.display = 'block'
+      }
+      // console.error(error)
     } else {
       data = JSON.parse(res)
       console.log(data)
@@ -35,7 +42,7 @@ send_slack_token.addEventListener('click', () => {
           '<tr class="">\
             <td>#' + data.channels[i].name + '</td>\
             <td>\
-              <input type="radio" id="yes" name=channel_"' + data.channels[i].name + '" value="yes" checked="checked">\
+              <input type="radio" id="yes" name="channel_' + data.channels[i].name + '" value="yes" checked="checked">\
               <label for="channel_"' + data.channels[i].name + '">Yes   </label>\
               <input type="radio" id="no" name=channel_"' + data.channels[i].name + '" value="no">\
               <label for="channel_"' + data.channels[i].name + '">No   </label>\
@@ -67,6 +74,15 @@ send_slack_token.addEventListener('click', () => {
 })
 
 submit_custom_info.addEventListener('click', () => {
+  custom_info = {}
+  checked_buttons = document.querySelectorAll('input:checked')
+  yes_channels = []
+  // console.log(checked_buttons)
+  for (i = 0; i < checked_buttons.length; i++) {
+    yes_channels.push(checked_buttons[i].name.substring(8))
+  }
+  console.log(yes_channels)
+  options = {token: token.value, channels_to_analyze: yes_channels}
   client.invoke("run_analyses", token.value, (error, res) => {
     if(error) {
       console.error(error)
@@ -81,6 +97,21 @@ submit_custom_info.addEventListener('click', () => {
 })
 
 back.addEventListener('click', () => {
+  document.querySelector('#gender-tags').innerHTML = 
+      '<tr> \
+      <th>Username</th> \
+      <th>Gender</th> \
+      </tr>'
+  document.querySelector('#channels').innerHTML = 
+      '<tr class="">\
+        <th>Channel</th>\
+        <th>Selected</th>\
+      </tr>'
   document.querySelector('#page-2').style.display = 'none'
+  document.querySelector('#page-1').style.display = 'block'
+})
+
+error_back.addEventListener('click', () => {
+  document.querySelector('#page-auth-error').style.display = 'none'
   document.querySelector('#page-1').style.display = 'block'
 })

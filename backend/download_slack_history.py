@@ -187,7 +187,7 @@ def download_slack_history(token=None):
     getChannels(slack, dryRun)
     getPrivateChannels(slack, dryRun)
     # getDirectMessages(slack, testAuth['user_id'], userIdNameMap, dryRun)
-    print "done downloading slack history"
+    print("done downloading slack history")
     return "successfully downloaded slack history"
 
 if __name__ == "__main__":
